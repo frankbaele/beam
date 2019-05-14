@@ -1163,7 +1163,7 @@ public class ElasticsearchIO {
         @JsonProperty("_id")
         final String id;
 
-        @JsonProperty("_retry_on_conflict")
+        @JsonProperty("retry_on_conflict")
         final Integer retryOnConflict;
 
         DocumentMetadata(String index, String type, String id, Integer retryOnConflict) {
